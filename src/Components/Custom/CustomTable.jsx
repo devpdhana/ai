@@ -14,7 +14,7 @@ const CustomTable = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://35.95.20.164:8080/investment");
+        const response = await axios.get("http://54.202.91.9:443/investment");
         setCompanies(response.data);
       } catch (error) {
         console.error("Error fetching the investors data", error);
